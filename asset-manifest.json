@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/task-vikings/static/css/main.48398870.chunk.css",
+    "main.js": "/task-vikings/static/js/main.198654c7.chunk.js",
+    "main.js.map": "/task-vikings/static/js/main.198654c7.chunk.js.map",
+    "runtime-main.js": "/task-vikings/static/js/runtime-main.1a27aec3.js",
+    "runtime-main.js.map": "/task-vikings/static/js/runtime-main.1a27aec3.js.map",
+    "static/js/2.a1e076b7.chunk.js": "/task-vikings/static/js/2.a1e076b7.chunk.js",
+    "static/js/2.a1e076b7.chunk.js.map": "/task-vikings/static/js/2.a1e076b7.chunk.js.map",
+    "index.html": "/task-vikings/index.html",
+    "static/css/main.48398870.chunk.css.map": "/task-vikings/static/css/main.48398870.chunk.css.map",
+    "static/js/2.a1e076b7.chunk.js.LICENSE.txt": "/task-vikings/static/js/2.a1e076b7.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/task-vikings/static/media/MulishRegular.2f1b7468.ttf",
+    "static/media/logo.3fa29246.svg": "/task-vikings/static/media/logo.3fa29246.svg",
+    "static/media/searchIcon.b6e2c63e.svg": "/task-vikings/static/media/searchIcon.b6e2c63e.svg",
+    "static/media/shoppingBagIcon.5f5918c5.svg": "/task-vikings/static/media/shoppingBagIcon.5f5918c5.svg",
+    "static/media/viking.6165b9b8.png": "/task-vikings/static/media/viking.6165b9b8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a27aec3.js",
+    "static/js/2.a1e076b7.chunk.js",
+    "static/css/main.48398870.chunk.css",
+    "static/js/main.198654c7.chunk.js"
+  ]
+}

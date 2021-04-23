@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  text-align: center;
+  
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 26px;
+    display: block;
+    position: relative;
+    // padding: 10px;
+    margin: 0 16px;
+    color: #202020;
+    cursor: pointer;
+
+    &--sale {
+      color: #cc0000;
+      text-transform: uppercase;
+    }
+  }
+}

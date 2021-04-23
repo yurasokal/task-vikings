@@ -1,0 +1,25 @@
+.hero {
+  height: 520px;
+  width: 100%;
+  background-color: #131925;
+  display: block;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  position: relative;
+
+  &__photo {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top: 0%; 
+    left: 0%;
+  }
+
+  &__heading {
+    font-family: "Goudy";
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 563px;
+  }
+}

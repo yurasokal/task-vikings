@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.scss';
 
-function Nav() {
+export function Nav() {
   return (
     <nav className="nav header__nav">
       <ul className="nav__list">
@@ -41,5 +41,3 @@ function Nav() {
     </nav>
   );
 }
-
-export default Nav;

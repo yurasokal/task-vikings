@@ -1,13 +1,11 @@
 import React from 'react';
 import './Main.scss';
-import Hero from '../Hero/Hero';
+import { Hero } from '../Hero/Hero';
 
-function Main() {
+export function Main() {
   return (
     <main className="main">
       <Hero />
     </main>
   );
 }
-
-export default Main;

@@ -1,10 +1,11 @@
 import React from 'react';
 import './main.scss';
 import './App.scss';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import './reset.scss';
+import { Header } from './components/Header/Header';
+import { Main } from './components/Main/Main';
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <Header />
@@ -12,5 +13,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -3,6 +3,76 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
-  height: 130px;
+  // padding: 0 50px;
+  height: 80px;
+
+  &__logo {
+    padding-left: 111px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__shoppingBagIcon {
+    padding-right: 111px;
+  }
+
+  &__burger {
+    height: 1px;
+    width: 25px;
+    background-color: #202020;
+    position: relative;
+    
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 1px;
+      width: 30px;
+      top: 8px;
+      // left: 10%;
+      background-color: #202020;
+    }
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 8px;
+      height: 1px;
+      width: 30px;
+      background-color: #202020;
+    }
+  }
+}
+
+.isActive {
+  background: pink;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    &__searchIcon {
+      display: none;
+    }
+
+    &__logo,
+    &__shoppingBagIcon {
+      padding: 0;
+    }
+
+    &__shoppingBagIcon {
+      cursor: pointer;
+    }
+
+    &__burger {
+      cursor: pointer;
+    }
+  }
 }

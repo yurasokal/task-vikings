@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/task-vikings/static/css/main.d96d27ea.chunk.css",
+    "main.css": "/task-vikings/static/css/main.3c7576aa.chunk.css",
     "main.js": "/task-vikings/static/js/main.840d7071.chunk.js",
     "main.js.map": "/task-vikings/static/js/main.840d7071.chunk.js.map",
     "runtime-main.js": "/task-vikings/static/js/runtime-main.1a27aec3.js",
@@ -8,7 +8,7 @@
     "static/js/2.374507ad.chunk.js": "/task-vikings/static/js/2.374507ad.chunk.js",
     "static/js/2.374507ad.chunk.js.map": "/task-vikings/static/js/2.374507ad.chunk.js.map",
     "index.html": "/task-vikings/index.html",
-    "static/css/main.d96d27ea.chunk.css.map": "/task-vikings/static/css/main.d96d27ea.chunk.css.map",
+    "static/css/main.3c7576aa.chunk.css.map": "/task-vikings/static/css/main.3c7576aa.chunk.css.map",
     "static/js/2.374507ad.chunk.js.LICENSE.txt": "/task-vikings/static/js/2.374507ad.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/task-vikings/static/media/MulishRegular.2f1b7468.ttf",
     "static/media/logo.3fa29246.svg": "/task-vikings/static/media/logo.3fa29246.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.1a27aec3.js",
     "static/js/2.374507ad.chunk.js",
-    "static/css/main.d96d27ea.chunk.css",
+    "static/css/main.3c7576aa.chunk.css",
     "static/js/main.840d7071.chunk.js"
   ]
 }

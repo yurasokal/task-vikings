@@ -4,21 +4,22 @@
   height: 520px;
   width: 100%;
   background-color: #131925;
-  background: url("../../images/main/viking.png");
   // display: block;
   background-size: cover;
   color: #fff;
   text-align: center;
-  // position: relative;
+  position: relative;
   // object-fit: cover;
 
   &__viking {
-    // background: url("../../images/main/viking.png");
-    // position: absolute;
-    // height: 520px;
-    // width: 100%;
-    // top: 0;
-    // left: 0;
+    background: url("../../images/main/viking.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 720px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     // object-fit: cover;
   }
 
@@ -66,4 +67,8 @@
       background-color: #fff;
     }
   }
+}
+
+.isActive {
+  background: #131925;
 }

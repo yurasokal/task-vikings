@@ -1,8 +1,8 @@
 .nav {
-  display: flex;
-  text-align: center;
   
   &__list {
+    display: flex;
+    text-align: center;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -29,8 +29,19 @@
   }
 }
 
+.isActive {
+  display: flex;
+  position: absolute;
+  color: #fff;
+  background: gold;
+}
+
+// .header__nav--isActive {
+//   display: flex;
+// }
+
 @media screen and (max-width: 768px) {
-  .nav {
-    display: none;
+  .nav__list {
+    // display: none;
   }
 }
